@@ -1,0 +1,95 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #555;
+  }
+  
+  .file-name {
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .file-id {
+    margin-right: 5px;
+    color: #66ff66;
+  }
+  
+  .copy-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .copy-button:hover {
+    background-color: #5588dd;
+  }
+
+  #searchInput {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid #a9a9a9;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  #searchInput:focus {
+    outline: none;
+    border-color: #3366cc;
+    box-shadow: 0px 0px 5px 0px #3366cc;
+  }
+  
+  #searchInput::placeholder {
+    color: #888;
+  }
+  
+  #searchInput:focus::placeholder {
+    color: transparent;
+  }
+
+  .github-link {
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .github-link img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .github-link:hover img {
+    transform: scale(1.1);
+  }
